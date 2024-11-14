@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRÍCULO | ANDREY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html">Andrey Nery dos Santos</a>
+        </h1>
+        <nav>
+            <a href="#info">Informações Pessoais</a>
+            <a href="#objt">Objetivos</a>
+            <a href="#form">Formação</a>
+            <a href="#exp">Experiências Profissionais</a>
+            <a href="#extc">Extra Curricular</a>
+            <a href="#contt">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <div id="info">
+            <h2>Informações Pessoais</h2>
+                <div class="flex">
+                    <img src="img/me.jpg" alt="foto de andrey nery">
+                    <div class="unflex">
+                        <p>Celular: +55 (75) 99214-4140</p>
+                        <p>E-mail: andreynerys@outlook.com</p>
+                        <p>Endereço: Rua Afonso Celso, 225 - Barra, Salvador/BA, 40140080</p>
+                    </div>
+                </div>
+                <p class="indent">Olá, me chamo Andrey e, este é eu currículo pessoal. Tenho 19 anos e pipipi popopo... Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo explicabo consectetur magni iste, reiciendis, ipsam fuga dolores ullam odio repellendus iusto obcaecati ducimus unde, maxime a maiores cum sit repudiandae!</p>
+        </div>
+        <div id="objt">
+            <h2>Objetivos</h2>
+            <p class="indent">Estreante na carreira como Analista de Dados, afim de garantir experiências profissionais, disponho de reconhecer e estabelecer metas; analisar e tratar dados; e, solucionar qualquer problema com empenho, domínio técnico e comunicação clara, em equipe ou de maneira autônoma, se necessário.</p>
+        </div>
+        <div id="form">
+            <h2>Formação</h2>
+            <ul>
+                <li>Colégio Estadual de Conceição do Jacuípe | Ensino Médio Completo (2020-2022)</li>
+                <li>Universidade Católica do Salvador – Engenharia de Software | Semestre: 1/8 (Bacharelado)</li>
+            </ul>
+        </div>
+        <div id="exp">
+            <h2>Experiências Profissionais</h2>
+            <ul>
+                <li>Auxiliar de Escritório em Geral – Jovem Aprendiz (2023 - 2025) - Mondial Eletrodomésticos</li>
+            </ul>
+            <p class="indent">Operando como assistente administrativo, fui responsável pela criação e atualização de planilhas, assim como alimentação e cadastro de peças do setor. Além disso, desenvolvi dashboards para análise de dados e realizei o mapeamento geral do setor de estoque para otimizar processos e garantir eficiência operacional.</p>
+            <ul>
+                <li>Intermediário em Excel e Power BI</li>
+            </ul>
+        </div>
+        <div id="extc">
+            <h2>Extra Curricular e Links</h2>
+            <ul>
+                <li>Arco-Administração (Capacitação Teórica) - <abbr title="Instituto Brasileiro Pró-Educação, Trabalho e Desenvolvimento">ISBET</abbr> (20/09/2024-18/09/2024) - Incompleto</li>
+                <p class="indent">
+                    Em geral, neste curso, abrangi uma formação ampla e integrada, tanto nas minhas habilidades pessoais quanto nas minhas competências profissionais, com direcionamento no mercado de trabalho atual e em práticas de gestões e responsabilidade sociais.<span class="toggle-text" onclick="toggleParagrafo()"> [módulos concluídos]</span>
+                </p>
+                
+                    <ul id="conteudoDiv" class="conteudo">
+                        <li>Planejamento Pessoal;</li>
+                        <li>O profissional de Hoje;</li>
+                        <li>Cidadania;</li>
+                        <li>Construindo uma Empresa;</li>
+                        <li>Trabalho e Tecnologia;</li>
+                        <li>Visitas Guiadas;</li>
+                        <li>Língua Portuguesa;</li>
+                        <li>Matemática;</li>
+                        <li>Educação Ambiental;</li>
+                        <li>Direitos Humanos;</li>
+                        <li>Mundo do Trabalho;</li>
+                        <li>Saúde e Segurança no Trabalho;</li>
+                        <li>Informática;</li>
+                        <li>Controle e Qualidade;</li>
+                        <li>Fundamentos de Marketing;</li>
+                        <li>Gestão de Pessoas;</li>
+                        <li>Relacionamento com o Cliente;</li>
+                        <li>Recursos Humanos.</li>
+                    </ul>
+                <li>Certificado em - Excel Básico (<abbr title="Serviço Nacional de Aprendizagem Industrial">SENAI</abbr>) <a target="_blank" href="files/excel-senai.pdf">[baixar]</a></li>
+                <li>Certificado em - Excel Básico (Escola do Trabalhador 4.0) <a target="_blank" href="files/excel-edt.pdf">[baixar]</a></li>
+                <li>Informática - Básica</li>
+                <li>Pacote Office - Básico</li>
+                <li>Power BI - Básico <a target="_blank" href="https://app.powerbi.com/view?r=eyJrIjoiZDhjMGE3MTAtZDJmMS00NWIxLTgyYmQtNTRiZDQyYjlhZjg4IiwidCI6IjY1OWNlMmI4LTA3MTQtNDE5OC04YzM4LWRjOWI2MGFhYmI1NyJ9&pageName=2fd568942271970a65b8">[acessar]</a></li>
+                <li>SAP - Básico</li>
+                <li>Inglês - Básico</li>
+                <li>Curriculo em PDF <a target="_blank" href="files/curriculo.pdf">[baixar]</a></li>
+            </ul>
+        </div>
+
+        <script>
+            function toggleParagrafo() {
+                const conteudoDiv = document.getElementById("conteudoDiv");
+                conteudoDiv.style.display = conteudoDiv.style.display === "none" ? "block" : "none";
+            }
+        </script>
+    </main>
+    <footer>
+        <span>
+            <a href="https://www.linkedin.com/in/andreynery" target="_blank"><img class="social" src="img/linkedin.png" alt=""> Linkedin</a>
+            <a href="https://www.instagram.com/lildreyki" target="_blank"><img class="social" src="img/instagram.webp" alt=""> Instagram</a>
+        </span>
+        <p id="contt">Site desenvolvido por Andrey Nery &copy;</p>
+    </footer>
+</body>
+</html>
